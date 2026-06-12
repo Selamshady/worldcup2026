@@ -1,0 +1,730 @@
+[
+  {
+    "id": "GS-A1",
+    "round": "GS",
+    "home": "Mexico",
+    "away": "South Africa",
+    "ko": "2026-06-11T23:00:00Z"
+  },
+  {
+    "id": "GS-A2",
+    "round": "GS",
+    "home": "South Korea",
+    "away": "Czechia",
+    "ko": "2026-06-11T19:00:00Z"
+  },
+  {
+    "id": "GS-A3",
+    "round": "GS",
+    "home": "Mexico",
+    "away": "Czechia",
+    "ko": "2026-06-15T19:00:00Z"
+  },
+  {
+    "id": "GS-A4",
+    "round": "GS",
+    "home": "South Africa",
+    "away": "South Korea",
+    "ko": "2026-06-15T22:00:00Z"
+  },
+  {
+    "id": "GS-A5",
+    "round": "GS",
+    "home": "Czechia",
+    "away": "South Africa",
+    "ko": "2026-06-19T22:00:00Z"
+  },
+  {
+    "id": "GS-A6",
+    "round": "GS",
+    "home": "South Korea",
+    "away": "Mexico",
+    "ko": "2026-06-19T22:00:00Z"
+  },
+  {
+    "id": "GS-B1",
+    "round": "GS",
+    "home": "Canada",
+    "away": "Bosnia & Herzegovina",
+    "ko": "2026-06-12T19:00:00Z"
+  },
+  {
+    "id": "GS-B2",
+    "round": "GS",
+    "home": "USA",
+    "away": "Paraguay",
+    "ko": "2026-06-12T23:00:00Z"
+  },
+  {
+    "id": "GS-B3",
+    "round": "GS",
+    "home": "Canada",
+    "away": "Paraguay",
+    "ko": "2026-06-16T19:00:00Z"
+  },
+  {
+    "id": "GS-B4",
+    "round": "GS",
+    "home": "Bosnia & Herzegovina",
+    "away": "USA",
+    "ko": "2026-06-16T22:00:00Z"
+  },
+  {
+    "id": "GS-B5",
+    "round": "GS",
+    "home": "Paraguay",
+    "away": "Bosnia & Herzegovina",
+    "ko": "2026-06-20T22:00:00Z"
+  },
+  {
+    "id": "GS-B6",
+    "round": "GS",
+    "home": "USA",
+    "away": "Canada",
+    "ko": "2026-06-20T22:00:00Z"
+  },
+  {
+    "id": "GS-C1",
+    "round": "GS",
+    "home": "Australia",
+    "away": "Turkey",
+    "ko": "2026-06-13T00:00:00Z"
+  },
+  {
+    "id": "GS-C2",
+    "round": "GS",
+    "home": "Qatar",
+    "away": "Switzerland",
+    "ko": "2026-06-13T19:00:00Z"
+  },
+  {
+    "id": "GS-C3",
+    "round": "GS",
+    "home": "Australia",
+    "away": "Switzerland",
+    "ko": "2026-06-17T19:00:00Z"
+  },
+  {
+    "id": "GS-C4",
+    "round": "GS",
+    "home": "Turkey",
+    "away": "Qatar",
+    "ko": "2026-06-17T22:00:00Z"
+  },
+  {
+    "id": "GS-C5",
+    "round": "GS",
+    "home": "Switzerland",
+    "away": "Turkey",
+    "ko": "2026-06-21T22:00:00Z"
+  },
+  {
+    "id": "GS-C6",
+    "round": "GS",
+    "home": "Qatar",
+    "away": "Australia",
+    "ko": "2026-06-21T22:00:00Z"
+  },
+  {
+    "id": "GS-D1",
+    "round": "GS",
+    "home": "Brazil",
+    "away": "Morocco",
+    "ko": "2026-06-13T23:00:00Z"
+  },
+  {
+    "id": "GS-D2",
+    "round": "GS",
+    "home": "Haiti",
+    "away": "Scotland",
+    "ko": "2026-06-13T20:00:00Z"
+  },
+  {
+    "id": "GS-D3",
+    "round": "GS",
+    "home": "Brazil",
+    "away": "Scotland",
+    "ko": "2026-06-17T20:00:00Z"
+  },
+  {
+    "id": "GS-D4",
+    "round": "GS",
+    "home": "Morocco",
+    "away": "Haiti",
+    "ko": "2026-06-17T23:00:00Z"
+  },
+  {
+    "id": "GS-D5",
+    "round": "GS",
+    "home": "Scotland",
+    "away": "Morocco",
+    "ko": "2026-06-21T02:00:00Z"
+  },
+  {
+    "id": "GS-D6",
+    "round": "GS",
+    "home": "Haiti",
+    "away": "Brazil",
+    "ko": "2026-06-21T02:00:00Z"
+  },
+  {
+    "id": "GS-E1",
+    "round": "GS",
+    "home": "Germany",
+    "away": "Curaçao",
+    "ko": "2026-06-14T19:00:00Z"
+  },
+  {
+    "id": "GS-E2",
+    "round": "GS",
+    "home": "Ivory Coast",
+    "away": "Ecuador",
+    "ko": "2026-06-14T23:00:00Z"
+  },
+  {
+    "id": "GS-E3",
+    "round": "GS",
+    "home": "Germany",
+    "away": "Ecuador",
+    "ko": "2026-06-18T19:00:00Z"
+  },
+  {
+    "id": "GS-E4",
+    "round": "GS",
+    "home": "Curaçao",
+    "away": "Ivory Coast",
+    "ko": "2026-06-18T22:00:00Z"
+  },
+  {
+    "id": "GS-E5",
+    "round": "GS",
+    "home": "Ecuador",
+    "away": "Curaçao",
+    "ko": "2026-06-22T22:00:00Z"
+  },
+  {
+    "id": "GS-E6",
+    "round": "GS",
+    "home": "Ivory Coast",
+    "away": "Germany",
+    "ko": "2026-06-22T22:00:00Z"
+  },
+  {
+    "id": "GS-F1",
+    "round": "GS",
+    "home": "Netherlands",
+    "away": "Japan",
+    "ko": "2026-06-14T22:00:00Z"
+  },
+  {
+    "id": "GS-F2",
+    "round": "GS",
+    "home": "Sweden",
+    "away": "Tunisia",
+    "ko": "2026-06-14T02:00:00Z"
+  },
+  {
+    "id": "GS-F3",
+    "round": "GS",
+    "home": "Netherlands",
+    "away": "Tunisia",
+    "ko": "2026-06-18T23:00:00Z"
+  },
+  {
+    "id": "GS-F4",
+    "round": "GS",
+    "home": "Japan",
+    "away": "Sweden",
+    "ko": "2026-06-18T20:00:00Z"
+  },
+  {
+    "id": "GS-F5",
+    "round": "GS",
+    "home": "Tunisia",
+    "away": "Japan",
+    "ko": "2026-06-22T02:00:00Z"
+  },
+  {
+    "id": "GS-F6",
+    "round": "GS",
+    "home": "Sweden",
+    "away": "Netherlands",
+    "ko": "2026-06-22T02:00:00Z"
+  },
+  {
+    "id": "GS-G1",
+    "round": "GS",
+    "home": "Spain",
+    "away": "Cape Verde",
+    "ko": "2026-06-15T19:00:00Z"
+  },
+  {
+    "id": "GS-G2",
+    "round": "GS",
+    "home": "Belgium",
+    "away": "Egypt",
+    "ko": "2026-06-15T23:00:00Z"
+  },
+  {
+    "id": "GS-G3",
+    "round": "GS",
+    "home": "Spain",
+    "away": "Egypt",
+    "ko": "2026-06-19T19:00:00Z"
+  },
+  {
+    "id": "GS-G4",
+    "round": "GS",
+    "home": "Cape Verde",
+    "away": "Belgium",
+    "ko": "2026-06-19T22:00:00Z"
+  },
+  {
+    "id": "GS-G5",
+    "round": "GS",
+    "home": "Egypt",
+    "away": "Cape Verde",
+    "ko": "2026-06-23T22:00:00Z"
+  },
+  {
+    "id": "GS-G6",
+    "round": "GS",
+    "home": "Belgium",
+    "away": "Spain",
+    "ko": "2026-06-23T22:00:00Z"
+  },
+  {
+    "id": "GS-H1",
+    "round": "GS",
+    "home": "Saudi Arabia",
+    "away": "Uruguay",
+    "ko": "2026-06-15T20:00:00Z"
+  },
+  {
+    "id": "GS-H2",
+    "round": "GS",
+    "home": "Iran",
+    "away": "New Zealand",
+    "ko": "2026-06-15T16:00:00Z"
+  },
+  {
+    "id": "GS-H3",
+    "round": "GS",
+    "home": "Saudi Arabia",
+    "away": "New Zealand",
+    "ko": "2026-06-19T20:00:00Z"
+  },
+  {
+    "id": "GS-H4",
+    "round": "GS",
+    "home": "Uruguay",
+    "away": "Iran",
+    "ko": "2026-06-19T23:00:00Z"
+  },
+  {
+    "id": "GS-H5",
+    "round": "GS",
+    "home": "New Zealand",
+    "away": "Uruguay",
+    "ko": "2026-06-23T02:00:00Z"
+  },
+  {
+    "id": "GS-H6",
+    "round": "GS",
+    "home": "Iran",
+    "away": "Saudi Arabia",
+    "ko": "2026-06-23T02:00:00Z"
+  },
+  {
+    "id": "GS-I1",
+    "round": "GS",
+    "home": "France",
+    "away": "Senegal",
+    "ko": "2026-06-16T23:00:00Z"
+  },
+  {
+    "id": "GS-I2",
+    "round": "GS",
+    "home": "Iraq",
+    "away": "Norway",
+    "ko": "2026-06-16T20:00:00Z"
+  },
+  {
+    "id": "GS-I3",
+    "round": "GS",
+    "home": "France",
+    "away": "Norway",
+    "ko": "2026-06-20T19:00:00Z"
+  },
+  {
+    "id": "GS-I4",
+    "round": "GS",
+    "home": "Senegal",
+    "away": "Iraq",
+    "ko": "2026-06-20T22:00:00Z"
+  },
+  {
+    "id": "GS-I5",
+    "round": "GS",
+    "home": "Norway",
+    "away": "Senegal",
+    "ko": "2026-06-24T02:00:00Z"
+  },
+  {
+    "id": "GS-I6",
+    "round": "GS",
+    "home": "Iraq",
+    "away": "France",
+    "ko": "2026-06-24T02:00:00Z"
+  },
+  {
+    "id": "GS-J1",
+    "round": "GS",
+    "home": "Argentina",
+    "away": "Algeria",
+    "ko": "2026-06-16T19:00:00Z"
+  },
+  {
+    "id": "GS-J2",
+    "round": "GS",
+    "home": "Austria",
+    "away": "Jordan",
+    "ko": "2026-06-16T00:00:00Z"
+  },
+  {
+    "id": "GS-J3",
+    "round": "GS",
+    "home": "Argentina",
+    "away": "Jordan",
+    "ko": "2026-06-20T23:00:00Z"
+  },
+  {
+    "id": "GS-J4",
+    "round": "GS",
+    "home": "Algeria",
+    "away": "Austria",
+    "ko": "2026-06-20T20:00:00Z"
+  },
+  {
+    "id": "GS-J5",
+    "round": "GS",
+    "home": "Jordan",
+    "away": "Algeria",
+    "ko": "2026-06-24T22:00:00Z"
+  },
+  {
+    "id": "GS-J6",
+    "round": "GS",
+    "home": "Austria",
+    "away": "Argentina",
+    "ko": "2026-06-24T22:00:00Z"
+  },
+  {
+    "id": "GS-K1",
+    "round": "GS",
+    "home": "Portugal",
+    "away": "DR Congo",
+    "ko": "2026-06-17T19:00:00Z"
+  },
+  {
+    "id": "GS-K2",
+    "round": "GS",
+    "home": "Uzbekistan",
+    "away": "Colombia",
+    "ko": "2026-06-17T00:00:00Z"
+  },
+  {
+    "id": "GS-K3",
+    "round": "GS",
+    "home": "Portugal",
+    "away": "Colombia",
+    "ko": "2026-06-21T19:00:00Z"
+  },
+  {
+    "id": "GS-K4",
+    "round": "GS",
+    "home": "DR Congo",
+    "away": "Uzbekistan",
+    "ko": "2026-06-21T22:00:00Z"
+  },
+  {
+    "id": "GS-K5",
+    "round": "GS",
+    "home": "Colombia",
+    "away": "DR Congo",
+    "ko": "2026-06-25T02:00:00Z"
+  },
+  {
+    "id": "GS-K6",
+    "round": "GS",
+    "home": "Uzbekistan",
+    "away": "Portugal",
+    "ko": "2026-06-25T02:00:00Z"
+  },
+  {
+    "id": "GS-L1",
+    "round": "GS",
+    "home": "England",
+    "away": "Croatia",
+    "ko": "2026-06-17T23:00:00Z"
+  },
+  {
+    "id": "GS-L2",
+    "round": "GS",
+    "home": "Ghana",
+    "away": "Panama",
+    "ko": "2026-06-17T22:00:00Z"
+  },
+  {
+    "id": "GS-L3",
+    "round": "GS",
+    "home": "England",
+    "away": "Panama",
+    "ko": "2026-06-21T23:00:00Z"
+  },
+  {
+    "id": "GS-L4",
+    "round": "GS",
+    "home": "Croatia",
+    "away": "Ghana",
+    "ko": "2026-06-21T20:00:00Z"
+  },
+  {
+    "id": "GS-L5",
+    "round": "GS",
+    "home": "Panama",
+    "away": "Croatia",
+    "ko": "2026-06-25T22:00:00Z"
+  },
+  {
+    "id": "GS-L6",
+    "round": "GS",
+    "home": "Ghana",
+    "away": "England",
+    "ko": "2026-06-25T22:00:00Z"
+  },
+  {
+    "id": "R32-1",
+    "round": "R32",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-06-28T19:00:00Z"
+  },
+  {
+    "id": "R32-2",
+    "round": "R32",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-06-28T23:00:00Z"
+  },
+  {
+    "id": "R32-3",
+    "round": "R32",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-06-29T00:00:00Z"
+  },
+  {
+    "id": "R32-4",
+    "round": "R32",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-06-29T19:00:00Z"
+  },
+  {
+    "id": "R32-5",
+    "round": "R32",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-06-29T23:00:00Z"
+  },
+  {
+    "id": "R32-6",
+    "round": "R32",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-06-30T00:00:00Z"
+  },
+  {
+    "id": "R32-7",
+    "round": "R32",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-06-30T19:00:00Z"
+  },
+  {
+    "id": "R32-8",
+    "round": "R32",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-06-30T23:00:00Z"
+  },
+  {
+    "id": "R32-9",
+    "round": "R32",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "R32-10",
+    "round": "R32",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-07-01T19:00:00Z"
+  },
+  {
+    "id": "R32-11",
+    "round": "R32",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-07-01T23:00:00Z"
+  },
+  {
+    "id": "R32-12",
+    "round": "R32",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-07-02T00:00:00Z"
+  },
+  {
+    "id": "R32-13",
+    "round": "R32",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-07-02T19:00:00Z"
+  },
+  {
+    "id": "R32-14",
+    "round": "R32",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-07-02T23:00:00Z"
+  },
+  {
+    "id": "R32-15",
+    "round": "R32",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-07-03T00:00:00Z"
+  },
+  {
+    "id": "R32-16",
+    "round": "R32",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-07-03T19:00:00Z"
+  },
+  {
+    "id": "R16-1",
+    "round": "R16",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-07-05T23:00:00Z"
+  },
+  {
+    "id": "R16-2",
+    "round": "R16",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-07-06T00:00:00Z"
+  },
+  {
+    "id": "R16-3",
+    "round": "R16",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-07-06T19:00:00Z"
+  },
+  {
+    "id": "R16-4",
+    "round": "R16",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-07-06T23:00:00Z"
+  },
+  {
+    "id": "R16-5",
+    "round": "R16",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-07-07T00:00:00Z"
+  },
+  {
+    "id": "R16-6",
+    "round": "R16",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-07-07T19:00:00Z"
+  },
+  {
+    "id": "R16-7",
+    "round": "R16",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-07-07T23:00:00Z"
+  },
+  {
+    "id": "R16-8",
+    "round": "R16",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-07-08T00:00:00Z"
+  },
+  {
+    "id": "QF-1",
+    "round": "QF",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-07-10T23:00:00Z"
+  },
+  {
+    "id": "QF-2",
+    "round": "QF",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-07-11T00:00:00Z"
+  },
+  {
+    "id": "QF-3",
+    "round": "QF",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-07-11T19:00:00Z"
+  },
+  {
+    "id": "QF-4",
+    "round": "QF",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-07-12T00:00:00Z"
+  },
+  {
+    "id": "SF-1",
+    "round": "SF",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-07-14T23:00:00Z"
+  },
+  {
+    "id": "SF-2",
+    "round": "SF",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-07-15T23:00:00Z"
+  },
+  {
+    "id": "3P",
+    "round": "3P",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-07-18T19:00:00Z"
+  },
+  {
+    "id": "F",
+    "round": "F",
+    "home": "TBD",
+    "away": "TBD",
+    "ko": "2026-07-19T19:00:00Z"
+  }
+]

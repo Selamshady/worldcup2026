@@ -1,0 +1,27 @@
+{
+  "name": "wc2026-pickem-functions",
+  "version": "1.0.0",
+  "description": "Firebase Cloud Functions for WC 2026 Pick'em — live score polling",
+  "main": "index.js",
+  "engines": {
+    "node": "20"
+  },
+  "scripts": {
+    "lint":   "eslint .",
+    "test":   "node --test",
+    "serve":  "firebase emulators:start --only functions",
+    "shell":  "firebase functions:shell",
+    "deploy": "firebase deploy --only functions",
+    "logs":   "firebase functions:log"
+  },
+  "dependencies": {
+    "firebase-admin":     "^12.0.0",
+    "firebase-functions": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint":                  "^8.57.0",
+    "eslint-config-google":    "^0.14.0",
+    "firebase-functions-test": "^3.2.0"
+  },
+  "private": true
+}

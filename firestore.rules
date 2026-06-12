@@ -1,0 +1,86 @@
+// ═══════════════════════════════════════════════════════════════════════════
+//  WC 2026 PICK'EM  —  FIRESTORE SECURITY RULES
+//
+//  Security model (no Firebase Auth — friend-group app):
+//
+//  READS   — open to all (anyone with the league code can read standings)
+//
+//  WRITES  — browser can write leagues + members with structural validation.
+//            liveScores is ONLY writable by the Cloud Function (Admin SDK
+//            bypasses rules entirely, so no browser rule is needed).
+//
+//  Deploy: firebase deploy --only firestore:rules
+// ═══════════════════════════════════════════════════════════════════════════
+
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+
+    // ── leagues/{code} ───────────────────────────────────────────────────
+    //  Root league document: name, creator, code, createdAt.
+    match /leagues/{code} {
+
+      // Anyone can read a league (needed for join-by-code and leaderboard)
+      allow read: if true;
+
+      // Create: allowed if the document doesn't exist yet and has valid shape.
+      allow create: if
+        !exists(/databases/$(database)/documents/leagues/$(code)) &&
+        request.resource.data.keys().hasAll(['name','creator','code','createdAt']) &&
+        request.resource.data.name  is string &&
+        request.resource.data.code  is string &&
+        request.resource.data.code  == code   &&
+        request.resource.data.code.size() == 6;
+
+      // No updates or deletes from the browser
+      allow update, delete: if false;
+
+
+      // ── leagues/{code}/members/{username} ─────────────────────────────
+      //  Member document: username, teamName, picks, score, joinedAt.
+      match /members/{username} {
+
+        // Anyone with the code can read members (for leaderboard + all-picks view)
+        allow read: if true;
+
+        // Create: allowed if member doesn't exist yet and has valid shape
+        allow create: if
+          !exists(/databases/$(database)/documents/leagues/$(code)/members/$(username)) &&
+          request.resource.data.keys().hasAll(['username','teamName','picks','score','joinedAt']) &&
+          request.resource.data.username is string &&
+          request.resource.data.teamName is string &&
+          request.resource.data.picks    is map    &&
+          request.resource.data.score    is number;
+
+        // Update: allowed on existing member documents.
+        // Validates that only picks + score change (username/teamName stay fixed).
+        allow update: if
+          resource.data.username == request.resource.data.username &&
+          resource.data.teamName == request.resource.data.teamName &&
+          request.resource.data.picks is map   &&
+          request.resource.data.score is number;
+
+        // No deletes from the browser
+        allow delete: if false;
+      }
+    }
+
+
+    // ── liveScores/{docId} ────────────────────────────────────────────────
+    //  Written ONLY by the Cloud Function via Admin SDK (bypasses rules).
+    //  Browser can only READ — never write.
+    match /liveScores/{docId} {
+      allow read:  if true;
+      allow write: if false;   // Cloud Function uses Admin SDK → bypasses this
+    }
+
+
+    // ── Catch-all: deny everything else ──────────────────────────────────
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+  }
+}

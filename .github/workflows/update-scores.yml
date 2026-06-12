@@ -1,0 +1,36 @@
+name: World Cup Live Scores Auto-Sync
+
+on:
+  schedule:
+    # Runs automatically every 5 minutes, 24/7
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+    # Allows you to click a button in GitHub to manually force an update anytime
+    inputs:
+
+jobs:
+  sync-scores:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: './functions/package.json'
+
+      - name: Install Project Dependencies
+        run: |
+          cd functions
+          npm install
+
+      - name: Fetch and Push Scores to Firestore
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: |
+          cd functions
+          node cron-update-scores.js
